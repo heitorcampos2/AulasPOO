@@ -7,7 +7,7 @@ public class Pessoa {
     double peso;
     double altura;
     
-    double imc(){
+    double imc(){ 
         return peso / (altura*altura);
     }
 }
